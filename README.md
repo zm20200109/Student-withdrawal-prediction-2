@@ -35,6 +35,9 @@ The final exam submissions is missing, if the result of the assessments is not s
 
    ![Method](assets/create_data.jpg)
 
+   ### Transforming data with ColumnTransformer + Filling NaNs:
+   ![Transforming data](assets/column_transformerjpg.jpg)
+
 In the **notebook.ipynb** file, a method is called to create a dataset with a 15-day threshold. 
 A pipeline is created to measure precision and recall for the **'Withdrawn'** class using various classification models:
 **Random Forest Classifier, Gradient Boosting Classifier, SVC, and Logistic Regression**. K-fold cross-validation with k=4 is also utilized.
